@@ -1,0 +1,8 @@
+bin/
+deployment/
+test-output/
+*.user
+*.log
+*.private.xml
+__pycache__/
+*.pyc

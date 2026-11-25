@@ -1,0 +1,9 @@
+{
+  "RootDirectory": "releases",
+  "BindAddress": "192.168.32.99",
+  "Port": 8787,
+  "AllowedCidrs": ["192.168.32.0/24", "127.0.0.0/8"],
+  "DeniedCidrs": [],
+  "ClientChannels": { "192.168.173.54": "test" },
+  "FirewallProfiles": ["Private", "Domain"]
+}

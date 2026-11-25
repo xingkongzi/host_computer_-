@@ -1,0 +1,15 @@
+{
+  "Enabled": false,
+  "AppId": "SynJMD_Monitor",
+  "DisplayName": "SynJMD Monitor",
+  "ServerUrl": "http://192.168.32.99:8787/",
+  "PublicKeyFile": "JmdUpdater/public-key.xml",
+  "PollSeconds": 60,
+  "RequestTimeoutSeconds": 15,
+  "StageTimeoutSeconds": 180,
+  "ExitTimeoutSeconds": 30,
+  "StartupTimeoutSeconds": 60,
+  "MaxPackageBytes": 1073741824,
+  "PreservePaths": ["default.txt", "parms.db", "parms_en.db", "*.db-journal", "*.db-wal", "*.db-shm", "*.csv", "*.log", "*.cuv", "data", "Logs"],
+  "RequiredPreservePaths": ["default.txt", "parms.db", "parms_en.db", "*.csv", "*.log", "*.cuv"]
+}

@@ -1,0 +1,15 @@
+{
+  "Enabled": false,
+  "AppId": "SynJMD_Manager",
+  "DisplayName": "SynJMD Manager",
+  "ServerUrl": "http://192.168.32.99:8787/",
+  "PublicKeyFile": "JmdUpdater/public-key.xml",
+  "PollSeconds": 60,
+  "RequestTimeoutSeconds": 15,
+  "StageTimeoutSeconds": 180,
+  "ExitTimeoutSeconds": 30,
+  "StartupTimeoutSeconds": 60,
+  "MaxPackageBytes": 1073741824,
+  "PreservePaths": ["DriveParms.xlsx", "ManagerSet.xlsx", "*.xlsx", "*.csv", "*.log", "data", "Logs"],
+  "RequiredPreservePaths": ["*.xlsx", "*.csv", "*.log"]
+}

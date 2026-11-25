@@ -1,0 +1,7 @@
+{
+  "CertificateThumbprint": "REPLACE_WITH_CODE_SIGNING_CERTIFICATE_THUMBPRINT",
+  "StoreLocation": "CurrentUser",
+  "RequireTimestamp": false,
+  "TimestampUrl": "",
+  "Files": ["SynJMD_Monitor.exe", "JmdUpdater/JmdUpdater.exe"]
+}

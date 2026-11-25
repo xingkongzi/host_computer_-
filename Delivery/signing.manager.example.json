@@ -1,0 +1,7 @@
+{
+  "CertificateThumbprint": "REPLACE_WITH_CODE_SIGNING_CERTIFICATE_THUMBPRINT",
+  "StoreLocation": "CurrentUser",
+  "RequireTimestamp": false,
+  "TimestampUrl": "",
+  "Files": ["SynJMD_Manager.exe", "DriveSysView.dll", "JmdUpdater/JmdUpdater.exe"]
+}
